@@ -2,9 +2,9 @@
 
 Datasets:
 
-Datapre processing:
+Data preprocessing:
 
-feature selection using genetic algorithm:
+feature selection using mutual-information based feature reduction technique:
 
 Ptotein-protein interaction network analysis:
 
