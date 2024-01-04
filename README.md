@@ -4,7 +4,7 @@ Datasets: Three datasets are given in the Datasets folder.
 
 Data preprocessing: The datasets given in this repository are preprocessed. We have collected raw datasets from three papers(details in the paper). Then, we preprocessed these datasets to get a meaningful representation of our work.
 
-Feature selection using mutual-information-based feature reduction technique: 'without_featureselection.py' can be used to get the classification results before feature selection. 'MI_feature_reduction.py' can be used to get the classification result after selecting features using Mutual information-based feature selection. 
+Feature selection using mutual-information-based feature reduction technique: 'without_featureselection.py' can be used to get the classification results before feature selection. 'MI_feature_reduction.py' can be used to get the classification result after selecting features using Mutual information-based feature selection. 'random_feature.py' selects random features from the dataset and gets classification results. classification_results.ipynb plots bar charts of comparisons between different classifier. 
 
 Protein-protein interaction network analysis:
 
