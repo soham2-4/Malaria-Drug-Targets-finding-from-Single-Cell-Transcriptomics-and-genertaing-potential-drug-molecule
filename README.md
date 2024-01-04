@@ -4,7 +4,7 @@ Datasets: Three datasets are given in the Datasets folder.
 
 Data preprocessing: The datasets given in this repository are preprocessed. We have collected raw datasets from three papers(details in the paper). Then, we preprocessed these datasets to get a meaningful representation of our work.
 
-feature selection using mutual-information-based feature reduction technique:
+Feature selection using mutual-information-based feature reduction technique: 'without_featureselection.py' can be used to get the classification results before feature selection. 
 
 Protein-protein interaction network analysis:
 
