@@ -1,4 +1,4 @@
-# Potential-target-finding-and-drug-generation-for-malaria-using-machine-learning-techniques.
+# Computational approach for decoding Malaria Drug targets from Single-Cell Transcriptomics and finding potential drug molecules.
 
 Datasets:
 
