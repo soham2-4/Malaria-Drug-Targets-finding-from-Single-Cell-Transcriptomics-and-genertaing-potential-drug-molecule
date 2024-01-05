@@ -12,7 +12,7 @@ Crucial proteins: After doing Protein-protein interaction network analysis, we s
 
 Suggested drug molecules using Targetdiff: Next, we found strong binding sites of crucial proteins and generated drug molecules using targetdiff(a generated deep learning framework).
 
-ADMET and drug-likeliness: In this step, we analyzed ADMET and drug-likeliness properties of all the generated drug molecules and found some drug molecules that can work as potential drug molecules.
+ADMET and drug-likeliness: In this step, we analyzed ADMET and drug-likeliness properties of all the generated drug molecules and found some drug molecules that can work as potential drug molecules. All the results can be found in 1st dataset. 2nd dataset and 3rd dataset folders.
 
 
 
