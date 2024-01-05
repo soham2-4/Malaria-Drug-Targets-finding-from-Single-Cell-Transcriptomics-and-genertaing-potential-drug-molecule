@@ -1,2 +1,2 @@
-output350.txt is the selected features from 1st dataset. 
-After getting selected features we did PPI analysis. you can find results in an excel sheet named bc.
+output200.txt is the selected feature from 2nd dataset, which can be found in the 'selected feature and analysis' folder. 
+After getting selected features we did PPI analysis. you can find results in an excel sheet named 200f.xltx in the 'selected feature and analysis' folder.
