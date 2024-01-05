@@ -1,2 +1,4 @@
 output350.txt is the selected features from 1st dataset. 
 After getting selected features we did PPI analysis. you can find results in an excel sheet named bc.
+Next we find common crucial proteins from 1st and 2nd datasets PPI analysis.
+Next all the details are given in 2nd.txt in 2nd dataset folder
