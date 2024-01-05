@@ -1,2 +1,6 @@
 output200.txt is the selected feature from 2nd dataset, which can be found in the 'selected feature and analysis' folder. 
-After getting selected features we did PPI analysis. you can find results in an excel sheet named 200f.xltx in the 'selected feature and analysis' folder.
+After getting selected features, we did PPI analysis. you can find results in an excel sheet named 200f.xltx in the 'selected feature and analysis' folder.
+1stprotein.pdb, 2nd protein.pdb, 3rdprotein.pdb, 4thprotein.pdb are the crucial proteins found from PPI analysis and these proteins are common crucial proteins with 1st dataset. 
+strong_cavity_2p4.pdb is the strong binding site of the 4th protein. Other crucial proteins do not have strong binding sites of relevant biological function for plasmodium survival.
+smiles_output of drug 4thp.txt is the generated smiles strings of drug molecules of strong_cavity_2p4.pdb binding site.
+swissadme.csv is the ADMET and drug likeliness analysis of the generated smiles string. We have used some criteria to select potential drug molecules in from this swissadme.csv, one can find all the details in our paper. 
