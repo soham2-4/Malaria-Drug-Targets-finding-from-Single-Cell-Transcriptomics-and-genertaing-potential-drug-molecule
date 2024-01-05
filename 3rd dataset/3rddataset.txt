@@ -1,1 +1,6 @@
-We have all the results of experiment on 3rd datset in this folder
+output260.txt is the selected feature from 3rd dataset, which can be found in the 'selected feature and analysis' folder. 
+After getting selected features, we did PPI analysis. you can find results in an excel sheet named 260f.xltx in the 'selected feature and analysis' folder.
+1stp.pdb, 2ndp.pdb, 3rdp.pdb, 4thprotein.pdb are the crucial proteins found from PPI analysis.
+this_cavity_1_2ndp.pdb, this_cavity_2_2ndp.pdb, this_cavity_3_2ndp.pdb, this_cavity_4_2ndp.pdb, this_cavity_5_2ndp.pdb are the strong binding site of the 2nd protein. Other crucial proteins do not have strong binding sites of relevant biological function for plasmodium survival.
+All the drugs that have been generated for these five strong binding sites can be found in drugs for binding sites folder.
+All the ADMET and drug likeliness analysis can be found in ADMET and swissadme analysis folder. We have used some criteria to select potential drug molecules from these generated drugs; one can find all the details in our paper. 
