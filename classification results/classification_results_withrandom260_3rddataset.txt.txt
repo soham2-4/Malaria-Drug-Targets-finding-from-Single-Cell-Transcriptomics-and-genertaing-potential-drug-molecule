@@ -1,0 +1,46 @@
+
+
+Model Name: Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         3
+           1       0.00      0.00      0.00         1
+           2       0.20      0.25      0.22         8
+           3       0.00      0.00      0.00         3
+           4       0.50      0.67      0.57         6
+           5       0.00      0.00      0.00         4
+
+   micro avg       0.24      0.24      0.24        25
+   macro avg       0.12      0.15      0.13        25
+weighted avg       0.18      0.24      0.21        25
+Accuracy: 0.24 
+
+Model Name: RandomForestClassifier
+              precision    recall  f1-score   support
+
+           0       1.00      0.33      0.50         3
+           1       0.00      0.00      0.00         1
+           2       0.30      0.75      0.43         8
+           3       0.00      0.00      0.00         3
+           4       0.00      0.00      0.00         6
+           5       0.00      0.00      0.00         4
+
+   micro avg       0.28      0.28      0.28        25
+   macro avg       0.22      0.18      0.15        25
+weighted avg       0.22      0.28      0.20        25
+Accuracy: 0.28 
+
+Model Name: XG
+              precision    recall  f1-score   support
+
+           0       1.00      0.33      0.50         3
+           1       0.00      0.00      0.00         1
+           2       0.33      0.50      0.40         8
+           3       0.00      0.00      0.00         3
+           4       0.33      0.33      0.33         6
+           5       0.25      0.25      0.25         4
+
+   micro avg       0.32      0.32      0.32        25
+   macro avg       0.32      0.24      0.25        25
+weighted avg       0.35      0.32      0.31        25
+Accuracy: 0.32 
