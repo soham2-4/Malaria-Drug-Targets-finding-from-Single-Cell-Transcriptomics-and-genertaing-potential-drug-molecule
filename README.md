@@ -61,7 +61,7 @@ Malaria, caused by Plasmodium parasites, remains a formidable global health chal
 <!-- GETTING STARTED -->
 ## Getting Started
 
-These are the steps to run the code locally on your pc:
+These are the steps to follow and run this project:
 ### Prerequisites
 
 
