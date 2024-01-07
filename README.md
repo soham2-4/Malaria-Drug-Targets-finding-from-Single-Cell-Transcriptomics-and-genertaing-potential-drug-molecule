@@ -88,6 +88,8 @@ These are the steps to run the code locally on your pc:
    python without_featureselection.py (get classification result without feature selection)
    python MI_feature_reduction.py (get classification result with feature selection)
    python random_feature.py (get classification result with random feature selection)
+   classification_results.ipynb (get bar chats of classification accuracies)
+   UMAP.ipynb (get UMAP of datasets before feature selection and after feature selection)
    ```
 
   
