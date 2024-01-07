@@ -83,10 +83,14 @@ These are the steps to run the code locally on your pc:
    ```sh
    pip3 install ....
    ```
-### How to run
-```sh
-   Run ga_feature_selection.ipynb on jupyter notebook after installing all the libraries.
+3. Run python files in code folder
+   ```sh
+   python without_featureselection.py (get classification result without feature selection)
+   python MI_feature_reduction.py (get classification result with feature selection)
+   python random_feature.py (get classification result with random feature selection)
    ```
+
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
