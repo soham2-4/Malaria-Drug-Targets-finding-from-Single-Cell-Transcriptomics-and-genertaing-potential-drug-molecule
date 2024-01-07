@@ -90,7 +90,7 @@ These are the steps to run the code locally on your pc:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/swarnimshukla/Machine-learning-approaches-for-classification-of-Plasmodium-falciparum-life-cycle.git
+   git clone https://github.com/soham2-4/Malaria-Drug-Targets-finding-from-Single-Cell-Transcriptomics-and-genertaing-potential-drug-molecule/tree/main.git
    ```
 2. Install pip packages
    ```sh
