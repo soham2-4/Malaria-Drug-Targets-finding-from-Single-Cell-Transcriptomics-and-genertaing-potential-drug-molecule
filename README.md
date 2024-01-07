@@ -51,7 +51,7 @@ Malaria, caused by Plasmodium parasites, remains a formidable global health chal
 
 ### Built With
 
-* Python 3.5
+* Python 3.6
 * sklearn
 
 
