@@ -137,7 +137,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - Soham Choudhuri - soham.choudhuri@research.iiit.ac.in
 
-Project Link: [https://github.com/swarnimshukla/Supervised-learning-of-Plasmodium-falciparum-life-cycle-stages-using-single-cell-transcriptomes-iden](https://github.com/swarnimshukla/Supervised-learning-of-Plasmodium-falciparum-life-cycle-stages-using-single-cell-transcriptomes-iden)
+Project Link: [https://github.com/soham2-4/Malaria-Drug-Targets-finding-from-Single-Cell-Transcriptomics-and-genertaing-potential-drug-molecule/tree/main](https://github.com/soham2-4/Malaria-Drug-Targets-finding-from-Single-Cell-Transcriptomics-and-genertaing-potential-drug-molecule/tree/main)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
