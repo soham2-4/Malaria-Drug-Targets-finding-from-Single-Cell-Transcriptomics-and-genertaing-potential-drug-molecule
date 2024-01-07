@@ -29,7 +29,7 @@
         <li><a href="#how_to_run">How to run</a></li>
       </ul>
     </li>
-    <li><a href="#usage">File details</a></li>
+    <li><a href="#usage">File details and</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     
