@@ -86,7 +86,7 @@ These are the steps to follow and run this project:
    python random_feature.py (get classification result with random feature selection)
    classification_results.ipynb (get bar chats of classification accuracies)
    UMAP.ipynb (get UMAP of datasets before feature selection and after feature selection)
-   enrichment.ipynb ()
+   enrichment.ipynb (bar charts of enriched biological functions)
    ```
 
   
