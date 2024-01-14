@@ -1,5 +1,7 @@
 # Computational approach for decoding Malaria Drug targets from Single-Cell Transcriptomics and finding potential drug molecules
 ![Project Image](images/flowchat.png) <!-- Add this line with the correct path -->
+![Project Image](images/MI.png) <!-- Add this line with the correct path -->
+
 
 <br />
 <div align="center">
