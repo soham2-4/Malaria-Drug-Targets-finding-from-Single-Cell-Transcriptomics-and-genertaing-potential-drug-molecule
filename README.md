@@ -1,6 +1,6 @@
 # Computational approach for decoding Malaria Drug targets from Single-Cell Transcriptomics and finding potential drug molecules
-![Project Image](images/flowchat.png) <!-- Add this line with the correct path -->
-![Project Image](images/MI.png) <!-- Add this line with the correct path -->
+![Project Image](images/flowchat.png "Flowchart of the pipeline of our whole work") <!-- Add this line with the correct path -->
+![Project Image](images/MI.png "Pipeline of the mutual information based feature reduction technique") <!-- Add this line with the correct path -->
 
 
 <br />
