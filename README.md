@@ -5,7 +5,7 @@
 <div align="center">
   
 <h3 align="center"Computational approach for decoding Malaria Drug targets from Single-Cell Transcriptomics and finding potential drug molecules</h3>
-
+![Project Image](images/flowchat.png) <!-- Add this line with the correct path -->
  
 </div>
 
