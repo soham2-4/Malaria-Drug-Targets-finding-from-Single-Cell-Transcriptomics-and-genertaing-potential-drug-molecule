@@ -1,0 +1,90 @@
+﻿BEGIN
+  # Import necessary libraries and modules
+  IMPORT pandas as pd 
+  IMPORT sklearn.model_selection (train_test_split) 
+  IMPORT sklearn.metrics (*) 
+  IMPORT sklearn.svm (SVC) # Support Vector Machine classifier
+  IMPORT sklearn.linear_model (LogisticRegression) # Logistic Regression classifier
+  IMPORT sklearn.ensemble (RandomForestClassifier) # Random Forest classifier
+  IMPORT xgboost (XGBClassifier) # XGBoost classifier
+  IMPORT sklearn.feature_selection (SelectKBest, mutual_info_classif) # Feature selection
+  IMPORT tqdm 
+  IMPORT numpy as np 
+  IMPORT sklearn.preprocessing (LabelEncoder) # Encode categorical labels
+
+  # Set a random seed for consistency in results
+  SET random_seed = 42
+  np.random.seed(random_seed)
+
+  # Open and read the CSV file to count the number of lines
+  OPEN "file_name.csv" AS fp IN read mode
+  SET no_lines = number of lines in fp (use tqdm for progress bar)
+
+  # Read lines from the CSV file
+  OPEN "file_name.csv" AS fp AGAIN in read mode
+  SET lines = list of all lines in fp (use tqdm for progress bar)
+  PRINT no_lines and length of lines
+
+  # Initialize empty lists for features and labels
+  INITIALIZE X as empty list
+  INITIALIZE Y as empty list
+
+  # Process each line in the file
+  FOR each line l IN lines DO
+    TRY
+      # Extract features and convert them to floats, append to X
+      APPEND features (converted to floats) to X
+      # Extract label, strip whitespace, and append to Y
+      APPEND label (last element, stripped of whitespace) to Y
+    EXCEPT
+      # Skip lines that cause an error
+      CONTINUE
+
+  # Convert list of features to a numpy array
+  CONVERT X to numpy array
+  # Split data into training and testing sets
+  SPLIT X and Y into X_train, X_test, Y_train, Y_test using train_test_split
+    with test_size=0.2, stratify=Y, random_state=random_seed
+
+  # Initialize a label encoder
+  INITIALIZE LabelEncoder as le
+  # Fit and transform training labels
+  FIT and TRANSFORM Y_train using le
+  # Transform testing labels
+  TRANSFORM Y_test using le
+
+  # Iterate over different values of k for feature selection
+  FOR k_value IN RANGE 200 to 500 with step 50 DO
+    # Select top k_value features using Mutual Information
+    SELECT top k_value features using SelectKBest with mutual_info_classif
+    # Transform training and testing data with selected features
+    TRANSFORM X_train and X_test using selected features
+    # Get indices of selected features
+    GET selected feature indices
+    # Get original feature names as list of strings
+    GET original feature names
+
+    # Print and write selected feature names to a file
+    PRINT and WRITE selected feature names to 'classification_results_k{k_value}.txt'
+
+    # Initialize classifiers
+    INITIALIZE models:
+      Logistic Regression (clf_1)
+      Random Forest (clf_2)
+      XGBoost (clf_3)
+    SET models as list of tuples with names and classifiers
+
+    # Train and evaluate each classifier
+    FOR each (name, model) IN models DO
+      # Fit model on training data with selected features
+      FIT model on X_train with selected features
+      # Predict on testing data
+      PREDICT Y_test using model
+      # Write model name, classification report, and accuracy to file
+      WRITE model name, classification report, and accuracy to file
+      # Print model name and accuracy
+      PRINT model name and accuracy
+
+    # Close the results file
+    CLOSE file 'classification_results_k{k_value}.txt'
+END
